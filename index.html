@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="index.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+
+   <link rel="stylesheet" href="">
+    
+    <title>Student Registration System</title>
+
+</head>
+
+<body>
+    <header id="header">
+        <h1>Student Registration System</h1>
+        <!-- ● Add a brief description summarizing the system's functionalities. -->
+
+    </header>
+    <main>
+        <div class="container">
+            <h3>Enter Student Details</h3>
+            <div class="inputform">
+                <form action="">
+                    
+                    <label for="stdname" class="label" >Student Name:*</label><br>
+                    <input type="text" name="stdname" id="stdname" class="input" required ><br>
+
+    
+                    <label for="stdid" class="label">Student Id:*</label><br>
+                    <input type="number" id="stdid" class="input" required><br>
+    
+                    <label for="stdemail" class="label">Email Id:*</label><br>
+                    <input type="email" name="stdemail" id="stdemail" class="input" required><br>
+    
+                    <label for="stdno" class="label">Contact No:*</label><br>
+                    <input type="number"  name="stdno" id="stdno" class="input" required ><br>
+
+    
+                    <button type="button" class="buttoninput">Add Details</button>
+    
+    
+                </form>
+            </div>
+            
+        </div>
+
+        <div id="display" class="displaysection">
+            <table class="table">
+                <thead >
+                    <tr>
+                        <td>Name</td>
+                        <td>Id</td>
+                        <td>Email Id</td>
+                        <td>Contact No</td>
+                        <td>Delete</td>
+                        <td>Edit</td>
+                    </tr>
+                </thead>
+            </table>
+        <!-- Display Section  -->
+        </div>
+    </main>
+    
+</body>
+
+</html>
