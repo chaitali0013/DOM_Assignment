@@ -1,2 +1,2 @@
-# DOM_Assignment-
+# DOM_Assignment
 Internshala  JavaScript Assignment
